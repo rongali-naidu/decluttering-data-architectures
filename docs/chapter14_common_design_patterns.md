@@ -4,7 +4,7 @@
 | **Big Data Processing**  | EMR (Spark, Hive, Presto), Athena, Redshift, Spectrum | Databricks (Spark)                  | Azure HDInsight (Spark, Hadoop)           | Dataproc (Spark, Hadoop)                   |
 | **Batch Processing**     | AWS Batch (with Glue ETL, EMR, Lambda) | Databricks Jobs                     | Azure Batch, Azure Data Factory (ADF)     | Dataflow (for batch), Cloud Composer (Airflow) |
 | **ETL/ELT**              | AWS Glue (ETL)                         | Databricks Delta Live Tables        | Azure Data Factory, Synapse Pipelines     | Cloud Dataflow, Dataform                   |
-| **Serverless Compute**   | AWS Lambda                             | Databricks Serverless               | Azure Functions                           | Cloud Functions                            |
+| **Serverless Compute**   | AWS Lambda  , Redshift Serverless, Glue ETL                       | Databricks Serverless               | Azure Functions                           | Cloud Functions                            |
 | **Streaming (Low Latency)** | Kinesis Data Streams                  | Structured Streaming (in Databricks) | Azure Event Hubs, Azure Stream Analytics  | Pub/Sub, Dataflow                          |
 | **High-Volume Streaming**| Kafka on EMR                           | Kafka on Databricks (with Delta)    | Azure Event Hubs (Kafka API)             | Pub/Sub, Kafka on GKE (Google Kubernetes)  |
 | **Streaming to Data Lake**| Kinesis Data Firehose                  | Autoloader (in Databricks)          | Azure Event Hubs Capture, Synapse Link   | Pub/Sub to BigQuery, Dataflow              |
