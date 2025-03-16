@@ -16,3 +16,4 @@ Ever flet too much data architecture jargon? This book is WORK IN PROGRESS and i
 - [Data Fabric](docs/docs/chapter11_data_fabric.md)
 - [Data Hub](docs/chapter12_data_hub.md)
 - [Data Virtualization](docs/chapter13_data_virtualization.md)
+- [Common Design Patterns](docs/chapter14_common_design_patterns.md)
