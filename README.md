@@ -1,5 +1,5 @@
 # Decluttering Data Architectures: Traditional, Modern and Design Patterns
-Ever felt too much data architecture jargon? This book is WORK IN PROGRESS and is an attempt to consolidate them , understand them at high level along with my take on these Architectures.
+Ever felt too much data architecture jargon? This book is WORK IN PROGRESS and is an attempt to consolidate them , understand them at high level.
 
 ## Table of Contents
 
