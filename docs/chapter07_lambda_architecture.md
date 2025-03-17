@@ -3,6 +3,8 @@
 
 NOTE : This seems to be related to problem i observed with Kinesis Firehose : when i reduced  buffer time from 10 mins to 1 mins, i could reduce the data refresh latency to 1 mins. But it resulted in another issue...smaller files issue . for one day data query,  provided the table is partitioned by snapshot day, SQL worked fine but when queried for the data accross the days, SQL performance went bad. due to  1 mins buffer , it resulted in around 60 files minimum...depending on the input data size, firehose could generate more than 60 files (for ex: in 1 min, it recieved 10 GB, we set 1 GB as buffer limit). One alternative, i thought aboyt this problem is 1) Developer lambda to merge small files into big files for previous day's files 2) Use this table for only recent data and separate table for historical data ...note that , not able to reduce the latency below 1 mins since that is the minum bufer time, Firehose provided.
 
+Reference 1 : https://medium.com/%40vinciabhinav7/lambda-architecture-a-big-data-processing-framework-introduction-74a47bc88bd3
+
 - **Overview**: Lambda Architecture is a **hybrid data processing model** that handles **real-time (stream)** and **batch** data processing simultaneously. It was popularized by **Nathan Marz** (author of "Big Data: Principles and Best Practices of Scalable Real-Time Data Systems").
 
 - **How It Works**:
