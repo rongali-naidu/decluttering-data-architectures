@@ -1,5 +1,5 @@
 
-## 📖 **Understanding Core Concepts in Data Architecture**
+## **Understanding key terminology in Data Architecture**
 
 ---
 
