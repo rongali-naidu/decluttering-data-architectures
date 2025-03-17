@@ -1,6 +1,6 @@
-Reference 1 : https://nexocode.com/blog/posts/lambda-vs-kappa-architecture/?utm_source=chatgpt.com
-Reference 2 : https://pradeepl.com/blog/kappa-architecture/
-Reference 3 : https://medium.com/%40lenonrodrigues/kappa-architecture-an-efficient-model-for-real-time-processing-767c623d04ad
+* Reference 1 : https://nexocode.com/blog/posts/lambda-vs-kappa-architecture/?utm_source=chatgpt.com
+* Reference 2 : https://pradeepl.com/blog/kappa-architecture/
+* Reference 3 : https://medium.com/%40lenonrodrigues/kappa-architecture-an-efficient-model-for-real-time-processing-767c623d04ad
 
 
 ### ⚡ **Kappa Architecture**
