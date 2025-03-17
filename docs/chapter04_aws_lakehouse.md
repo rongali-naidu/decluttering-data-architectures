@@ -63,22 +63,7 @@ This layer supports **querying**, **visualization**, and **downstream applicatio
 
 ---
 
-### **Key Takeaways from AWS Lakehouse Architecture:**  
+### **6: Sagemaker Lakehouse**
+This is WORK IN PROGRESS since its released recently. From Lakehouse aspect, it provides Access data across S3, Glue Data Catalog, Redshift. But i have several open questions on how its integrated with Glue Catalog, Lakeformation, Redshift, Athena etc..
 
-✅ **1. Centralized Storage with Amazon S3:**  
-Amazon S3 serves as the **foundation** of the AWS Lakehouse, providing **scalable**, **durable**, and **cost-efficient** storage for **all data types**.
 
-✅ **2. Purpose-Built Analytical Services:**  
-AWS provides a suite of **specialized services**—from **big data** (EMR) to **machine learning** (SageMaker) to **BI** (QuickSight)—ensuring **optimized** performance for different workloads.
-
-✅ **3. Unified Governance and Security:**  
-AWS Lake Formation and IAM provide **consistent**, **fine-grained** security across all layers of the architecture.
-
-✅ **4. Hybrid Processing Model:**  
-The AWS Lakehouse integrates **data lakes** (for raw and semi-structured data) and **data warehouses** (for structured, frequently queried data) for **flexibility** and **cost optimization**.
-
-✅ **5. Flexibility and Agility:**  
-Organizations can dynamically select the **best processing engine**—from **Redshift** for fast analytics to **EMR** for large-scale transformations—based on their **specific use case**.
-
-✅ **6. Not an "Either-Or" Approach:**  
-The AWS Lakehouse is **not** a replacement for a data warehouse. It **complements** it by allowing organizations to use **data warehouses** for high-performance queries while leveraging the **data lake** for **scalable**, **multi-format** storage and **advanced analytics**.
