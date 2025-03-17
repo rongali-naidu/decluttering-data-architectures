@@ -7,6 +7,8 @@ Data architecture is the overarching framework that describes and governs an org
 ### What are the components of any data architecture?
  Data architecture components represented visually
 
+![Image](images/chapter_1_introduction/modern-data-architecture-components.png)
+
 ### The main data architecture components are given below.
 
 #### Data sources
