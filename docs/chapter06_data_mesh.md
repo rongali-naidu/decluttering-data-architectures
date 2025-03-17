@@ -1,6 +1,7 @@
 **Data Mesh** A data mesh is an architectural framework that solves advanced data security challenges through distributed, decentralized ownership. Organizations have multiple data sources from different lines of business that must be integrated for analytics. A data mesh architecture effectively unites the disparate data sources and links them together through centrally managed data sharing and governance guidelines. Business functions can maintain control over how shared data is accessed, who accesses it, and in what formats it’s accessed. A data mesh adds complexities to architecture but also brings efficiency by improving data access, security, and scalability.. The core principles of Data Mesh include:
 
-Reference : https://aws.amazon.com/what-is/data-mesh/
+Reference 1 : https://aws.amazon.com/what-is/data-mesh/
+Reference 2 : https://www.amazon.com/Data-Mesh-Delivering-Data-Driven-Value/dp/1492092398
 
 1. **Domain-Oriented Decentralized Data Ownership and Architecture**: Assigns data ownership to specific business domains, allowing domain experts to manage and govern their data. citeturn0search0
 
@@ -14,4 +15,4 @@ For a comprehensive understanding, refer to the detailed article on Martin Fowle
 
 **Implementing Data Mesh in AWS Lakehouse Architecture**
 
-For me Data mesh is design pattern for linking cross account S3 buckets to datalake .... https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/
+For me Data mesh is design pattern for linking datasets stored in cross account S3 buckets owned by diferent teams  to central datalake , managing permissions throug Lakeformation .... https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/
