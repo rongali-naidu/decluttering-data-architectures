@@ -3,7 +3,6 @@ Ever felt too much data architecture jargon? This book is WORK IN PROGRESS and i
 
 ## Table of Contents
 
-- [Terminology Clarification](docs/chapter00_terminology.md)
 - [Introduction](docs/chapter01_introduction.md)
 - [Traditional Data Warehouse](docs/chapter02_traditional_dw.md)
 - [Modern Data Architecture](docs/chapter03_modern_data_architecture.md)
