@@ -1,8 +1,9 @@
 # Decluttering Data Architectures: Traditional, Modern and Design Patterns
-Ever flet too much data architecture jargon? This book is WORK IN PROGRESS and is an attempt to understand these  traditional and modern data architectures and design patterns like Data Mesh and Lambda  and break them down to the basic data processing fundamentals
+Ever felt too much data architecture jargon? This book is WORK IN PROGRESS and is an attempt to consolidate them , understand them at high level along with my take on these Architectures.
 
 ## Table of Contents
 
+- [Terminology Clarification](docs/chapter00_terminology.md)
 - [Introduction](docs/chapter01_introduction.md)
 - [Traditional Data Warehouse](docs/chapter02_traditional_dw.md)
 - [Modern Data Architecture](docs/chapter03_modern_data_architecture.md)
