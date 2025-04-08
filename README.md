@@ -1,5 +1,9 @@
 # Decluttering Data Architectures: Traditional, Modern and Design Patterns
-Ever felt too much data architecture jargon? This book is WORK IN PROGRESS and is an attempt to consolidate them , understand them at high level.
+Over the years, I’ve transitioned from building ETL pipelines to designing Data Warehouses, and eventually to setting up Data Lakes. As I went deeper into Data Lake implementations, I started questioning the broader picture—how various components of data architecture fit together and serve evolving business needs.
+
+In this journey, I realized that the data architecture landscape is filled with many models. Some are evolved versions of traditional Data Warehouse architectures. Others are rebranded to suit modern technologies like cloud platforms. And some are purpose-built for specific needs within the broader Data Lake or Data Warehouse ecosystem.
+
+In this series, I aim to demystify these architectures, highlight their intent, and help identify when and why to use each. Here's what I’ll be covering:
 
 ## Table of Contents
 
