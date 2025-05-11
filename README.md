@@ -1,4 +1,4 @@
-# Decluttering Data Architectures: Traditional, Modern and Design Patterns
+# Decluttering Data Architectures: Traditional, Modern Design Patterns
 Over the years, I’ve transitioned from building ETL pipelines to designing Data Warehouses, and eventually to setting up Data Lakes. As I went deeper into Data Lake implementations, I started questioning the broader picture—how various components of data architecture fit together and serve evolving business needs.
 
 In this journey, I realized that the data architecture landscape is filled with many models. Some are evolved versions of traditional Data Warehouse architectures. Others are rebranded to suit modern technologies like cloud platforms. And some are purpose-built for specific needs within the broader Data Lake or Data Warehouse ecosystem.
